@@ -23,3 +23,5 @@ ssh-keygen -t rsa -C "liker\liker365@163.com"  //创建SSH Key
 //在github添加~/.ssh/id_rsa.pub内容
 git remote add origin git@github.com:kisslee/learn.git //添加远程仓库
 git push -u origin master //把本地库的所有内容推送到远程库
+git push origin master //第一次加 -u 以后就不用了
+
