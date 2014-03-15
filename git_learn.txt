@@ -14,3 +14,5 @@ git reset --hard HEAD^ //撤销到上衣版本状态
 git log
 git reset --hard 3628164 //重置为某一次提交的版本号状态
 git reflog //查看每一次提交日志版本号
+git checkout -- readme.txt //修改了文件，还没有add，想丢弃工作区的修改
+git reset HEAD readme.txt //修改了文件，已经add，还没commit,此命令可以回退到版本库上一状态。然后再同上丢弃修改。
