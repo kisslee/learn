@@ -1,0 +1,16 @@
+git学习：
+mkdir git_repo
+cd git_repo
+git init
+git add readme.txt
+git diff readme.txt
+git status
+git commit -m "add something"
+git status
+git log
+git log --pretty=online
+git diff readme.txt
+git reset --hard HEAD^
+git log
+git reset --hard 3628164
+git reflog
