@@ -1,16 +1,16 @@
 git学习：
 mkdir git_repo
 cd git_repo
-git init
-git add readme.txt
-git diff readme.txt
+git init //将该目录初始化为git版本库
+git add readme.txt //将该文件添加到版本库
+git diff readme.txt //查看该文件修改的内容
+git status //查看版本哭状态
+git commit -m "add something"  //提交版本库变更
 git status
-git commit -m "add something"
-git status
+git log //查看版本库变更日志
+git log --pretty=online  //日志显示为一行
+git diff readme.txt 
+git reset --hard HEAD^ //撤销到上衣版本状态
 git log
-git log --pretty=online
-git diff readme.txt
-git reset --hard HEAD^
-git log
-git reset --hard 3628164
-git reflog
+git reset --hard 3628164 //重置为某一次提交的版本号状态
+git reflog //查看每一次提交日志版本号
