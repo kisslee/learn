@@ -18,3 +18,8 @@ git checkout -- readme.txt //修改了文件，还没有add，想丢弃工作区
 git reset HEAD readme.txt //修改了文件，已经add，还没commit,此命令可以回退到版本库上一状态。然后再同上丢弃修改。
 git rm test.txt //将工作区的文件删除后，用此命令可删除版本库里的该文件
 git checkout -- test.txt //将版本库里的文件恢复到本地工作区
+
+ssh-keygen -t rsa -C "liker\liker365@163.com"  //创建SSH Key
+//在github添加~/.ssh/id_rsa.pub内容
+git remote add origin git@github.com:kisslee/learn.git //添加远程仓库
+git push -u origin master //把本地库的所有内容推送到远程库
