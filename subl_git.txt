@@ -1,9 +1,23 @@
 ubuntu14.04
 sublime text 2
 git
+-----------------------------------------------------------
 
-ctr + shift + p
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+
+ctrl + shift + `
+
+import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.        makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.   ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')
+
+
+ctrl + shift + p
 git:init    /git
+
+git config --global core.editor "subl -n -w"
+git config --global push.default matching
+
 git:status
 git:commit       -- then input content of this text.
-git:push       --git config --global push.default matching
+git:push
