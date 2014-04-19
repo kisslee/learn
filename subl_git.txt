@@ -5,3 +5,5 @@ git
 ctr + shift + p
 git:init    /git
 git:status
+git:commit       -- then input content of this text.
+git:push       --git config --global push.default matching
