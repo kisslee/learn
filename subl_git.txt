@@ -1,0 +1,7 @@
+ubuntu14.04
+sublime text 2
+git
+
+ctr + shift + p
+git:init    /git
+git:status
