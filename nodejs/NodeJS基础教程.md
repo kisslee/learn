@@ -1,5 +1,22 @@
 NodeJS基础教程
 ======================
+#基础教程
+
+*italic*  
+**bold**
+_italic_
+__bold__
+(http://example.com/ "hello, world")
+`<script>document.location = 'http://example.com';</script>`
+
+```java
+public class HelloWorld {
+    public static void main(String[] args){
+        System.out.println("hello, world!");
+    }
+}
+```
+
 
 本文来自七天学会NodeJS
 
