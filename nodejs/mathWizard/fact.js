@@ -11,7 +11,7 @@ exports.get = function(req, res){
             .replace("{a}",req.a)
             .replace("{fact}",math.factorial(Math.floor(req.a))))
          : ""),
-        "<p>Enter Numbers for Mutiply</p>",
+        "<p>Enter Numbers for Factorial</p>",
         "<form name='fact' action='/fact' method='get'>",
             "A:<input type='text' name='a'/><br>",
             "<input type='submit' value='ok'/></form>"].join("\n")

@@ -11,7 +11,7 @@ exports.get = function(req, res){
             .replace("{a}",Math.floor(req.a))
             .replace("{fibo}",math.fibonacci(Math.floor(req.a))))
          : ""),
-        "<p>Enter Numbers for Mutiply</p>",
+        "<p>Enter Numbers for Fibonacci</p>",
         "<form name='fibo' action='/fibo' method='get'>",
             "A:<input type='text' name='a'/><br>",
             "<input type='submit' value='ok'/></form>"].join("\n")
